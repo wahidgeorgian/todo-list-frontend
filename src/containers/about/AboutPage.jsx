@@ -2,7 +2,7 @@ import HeroSectionAbout from './HeroSectionAbout.jsx';
 
 const AboutPage = () => {
   return (
-    <div>
+    <div className='mt-12'>
       <HeroSectionAbout />
     </div>
   );
