@@ -1,3 +1,5 @@
+import logo from '../../assets/logo.png';
+
 const Navbar = () => {
     return (
         <nav className="relative bg-gray-800">
@@ -5,7 +7,7 @@ const Navbar = () => {
 
            <div className="container mx-auto flex justify-between items-center">
             <a href="/" className="text-lg font-bold text-white">
-                Logo
+                <img src={logo} alt="logo" className="h-8 w-8 inline-block" />
             </a>
             <div className="flex items-center space-x-4">
                 <a href="/" className="px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-gray-700">
